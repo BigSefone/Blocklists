@@ -66,7 +66,58 @@ https://raw.githubusercontent.com/LanikSJ/webannoyances/refs/heads/master/filter
 https://raw.githubusercontent.com/LanikSJ/webannoyances/refs/heads/master/filters/adguard_app_android_exclusion_filters.txt
 https://raw.githubusercontent.com/LanikSJ/webannoyances/refs/heads/master/filters/adguard_app_ios_exclusion_filters.txt
 
-My Filters:
+My Filters personal:
+https://raw.githubusercontent.com/yokoffing/filterlists/refs/heads/main/youtube_clear_view.txt
+
+www.youtube.com##+js(set, yt.config_.EXPERIMENT_FLAGS.service_worker_enabled, false)
+www.youtube.com##+js(nano-stb, resolve(1), *, 0.001)
+www.youtube.com##+js(set, yt.config_.EXPERIMENT_FLAGS.web_enable_ab_rsp_cl, false)
+www.youtube.com##+js(set, yt.config_.EXPERIMENT_FLAGS.ab_pl_man, false)
+||googlevideo.com/videoplayback$xhr,3p,method=get,domain=www.youtube.com
+www.youtube.com/watch##+js(set, ytInitialData, undefined)
+www.youtube.com##.paper-toast-open.yt-notification-action-renderer.style-scope.toast-button
+www.youtube.com##.yt-notification-action-renderer.style-scope.toast-button
+youtube.com##.ytPlayerQuickActionButtonsHost
+
+||www.youtube.com/sw.js$script
+www.youtube.com##ytd-reel-shelf-renderer
+www.youtube.com##+js(aeld, dblclick)
+www.youtube.com##.ytp-suggested-action-badge-expanded
+www.youtube.com##ytd-browse ytd-grid-video-renderer:has(ytd-thumbnail-overlay-time-status-renderer[overlay-style="UPCOMING"])
+www.youtube.com##ytd-browse ytd-rich-item-renderer:has(ytd-thumbnail-overlay-time-status-renderer[overlay-style="UPCOMING"])
+www.youtube.com##ytd-browse[page-subtype="subscriptions"] ytd-video-renderer ytd-thumbnail-overlay-time-status-renderer[overlay-style="UPCOMING"]:upward(ytd-item-section-renderer)
+youtube.com##.ytp-button.branding-img-container
+youtube.com##.ytp-quality-menu .ytp-premium-label:upward(.ytp-menuitem)
+www.youtube.com##ytd-app:style(--ytd-app-fullerscreen-scrollbar-width: -1px !important;)
+www.youtube.com##.ytd-badge-supported-renderer.style-scope.badge-style-type-verified.badge
+www.youtube.com##.ytd-comment-renderer #author-text:remove-attr(hidden)
+www.youtube.com##.ytd-comment-renderer #author-comment-badge
+www.youtube.com##ytd-video-meta-block + ytd-badge-supported-renderer
+www.youtube.com##yt-smartimation > *:not(.ytSmartImationsContent)
+||youtube.com/youtubei/v1/updated_metadata
+www.youtube.com###description #info a[href^="/hashtag/"]
+www.youtube.com###super-title
+www.youtube.com##.super-title
+m.youtube.com##.standalone-collection-badge a[href^="/hashtag/"]
+m.youtube.com##ytm-video-description-header-renderer button-view-model a[href^="/hashtag/"]
+www.youtube.com###description .ytd-watch-metadata #items:has(.ytd-video-description-music-section-renderer)
+m.youtube.com##ytm-video-description-music-section-renderer
+youtube.com###donation-shelf
+||www.youtube.com/s/player/*/player_ias.vflset/*/annotations_module.js$script
+
+@@||googlevideo.com/videoplayback?expire$domain=www.youtube.com
+www.youtube.com#@#+js(trusted-replace-outbound-text, JSON.stringify, '"clientScreen":"WATCH"', '"clientScreen":"ADUNIT"')
+youtube.com#@#+js(trusted-edit-inbound-object, JSON.stringify, 0, ..client[?.clientName=="WEB"]+={"clientScreen":"CHANNEL"})
+youtube.com#@#+js(trusted-json-edit-fetch-request, ..client[?.clientName=="WEB"]+={"clientScreen":"CHANNEL"}, propsToMatch, /\/(player|get_watch)/)
+www.youtube.com#@#+js(trusted-replace-outbound-text, JSON.stringify, isWebNativeShareAvailable":true}}, 'isWebNativeShareAvailable":true},"clientScreen":"ADUNIT"}')
+youtube.com#@#+js(trusted-replace-outbound-text, JSON.stringify, {"contentPlaybackContext", '{"adPlaybackContext":{"pyv":true},"contentPlaybackContext"', condition, currentUrl":"/watch)
+youtube.com#@#+js(json-prune-fetch-response, playerResponse.adPlacements playerResponse.playerAds playerResponse.adSlots adPlacements playerAds adSlots, '', /playlist\?list=|player\?|watch\?[tv]=/)
+
+www.reddit.com##.fixed.m\:block.hidden.order-first.isolate.theme-rpl.left-sidebar
+reddit.com##+js(json-edit-fetch-request, ..info, propsToMatch, /svc/shreddit/events)
+reddit.com##+js(rub, nsfw, spoiler)
+
+My Filters for another setup:
 www.youtube.com##+js(set, yt.config_.EXPERIMENT_FLAGS.service_worker_enabled, false)
 www.youtube.com##+js(nano-stb, resolve(1), *, 0.001)
 www.youtube.com##+js(set, yt.config_.EXPERIMENT_FLAGS.web_enable_ab_rsp_cl, false)
