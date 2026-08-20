@@ -1,3 +1,72 @@
+Diamond filter:
+https://ublockorigin.github.io/uAssetsCDN/filters/filters.min.txt
+https://ublockorigin.github.io/uAssetsCDN/filters/badware.min.txt
+https://ublockorigin.github.io/uAssetsCDN/filters/privacy.min.txt
+https://ublockorigin.github.io/uAssetsCDN/filters/quick-fixes.min.txt
+https://ublockorigin.github.io/uAssetsCDN/filters/unbreak.min.txt
+https://ublockorigin.github.io/uAssetsCDN/filters/lan-block.txt
+https://ublockorigin.github.io/uAssetsCDN/filters/annoyances-cookies.txt
+https://ublockorigin.github.io/uAssetsCDN/filters/annoyances.min.txt
+https://raw.githubusercontent.com/DandelionSprout/adfilt/refs/heads/master/LegitimateURLShortener.txt
+https://raw.githubusercontent.com/Yuki2718/adblock2/refs/heads/main/japanese/jpf-plus.txt
+https://raw.githubusercontent.com/Yuki2718/adblock2/refs/heads/main/japanese/jpfp-ag.txt
+https://raw.githubusercontent.com/Yuki2718/adblock2/refs/heads/main/japanese/jpfp-ub.txt
+https://raw.githubusercontent.com/stephenhawk8054/NoJSFix/refs/heads/main/nojs_fix.txt
+https://raw.githubusercontent.com/stephenhawk8054/NoJSFix/refs/heads/main/sandbox_nojs.txt
+https://raw.githubusercontent.com/DandelionSprout/adfilt/refs/heads/master/AntiFunctionalityRemovalList.txt
+https://raw.githubusercontent.com/DandelionSprout/adfilt/refs/heads/master/EmptyPaddingRemover.txt
+https://raw.githubusercontent.com/DandelionSprout/adfilt/refs/heads/master/SocialShareList.txt
+https://raw.githubusercontent.com/the-advoid/ad-void/main/AdVoid.Full.txt
+https://raw.githubusercontent.com/the-advoid/ad-void/main/scriptlets/AdVoid.Scriptlets.Privacy.txt
+https://raw.githubusercontent.com/liamengland1/miscfilters/refs/heads/master/antipaywall.txt
+https://raw.githubusercontent.com/celenityy/BadBlock/pages/abp/badblock_plus.txt
+https://raw.githubusercontent.com/DandelionSprout/adfilt/refs/heads/master/BrowseWebsitesWithoutLoggingIn.txt
+https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters/blob/raw?file=bpc-paywall-filter.txt
+https://raw.githubusercontent.com/yokoffing/filterlists/refs/heads/main/privacy_essentials.txt
+https://raw.githubusercontent.com/yokoffing/filterlists/refs/heads/main/antipaywall_filters_without_element_hiding.txt
+https://raw.githubusercontent.com/yokoffing/filterlists/refs/heads/main/click2load.txt
+https://raw.githubusercontent.com/yokoffing/filterlists/refs/heads/main/annoyance_list.txt
+https://raw.githubusercontent.com/yokoffing/filterlists/refs/heads/main/adult_annoyance_list.txt
+https://raw.githubusercontent.com/yokoffing/filterlists/refs/heads/main/enhanced_site_protection.txt
+https://raw.githubusercontent.com/mchangrh/yt-neuter/main/filters/sponsorblock.txt
+https://gitlab.com/hagezi/mirror/-/raw/main/dns-blocklists/adblock/blocklist-referral-native.txt
+https://gitlab.com/hagezi/mirror/-/raw/main/dns-blocklists/adblock/urlshortener.txt
+https://gitlab.com/hagezi/mirror/-/raw/main/dns-blocklists/adblock/hoster.txt
+https://gitlab.com/hagezi/mirror/-/raw/main/dns-blocklists/adblock/dyndns.txt
+https://gitlab.com/hagezi/mirror/-/raw/main/dns-blocklists/adblock/doh-vpn-proxy-bypass.txt
+
+Titanium filter:
+https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_2_Base/filter.txt
+https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_3_Spyware/filter.txt
+https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_17_TrackParam/filter.txt
+https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_4_Social/filter.txt
+https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_14_Annoyances/filter.txt
+https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_25_Mail_Tracking_Protection/filter.txt
+https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_1_Russian/filter.txt
+https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_6_German/filter.txt
+https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_16_French/filter.txt
+https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_7_Japanese/filter.txt
+https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_8_Dutch/filter.txt
+https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_9_Spanish/filter.txt
+https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_13_Turkish/filter.txt
+https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_224_Chinese/filter.txt
+https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_23_Ukrainian/filter.txt
+https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_11_Mobile/filter.txt
+https://easylist.to/easylist/easylist.txt
+https://easylist.to/easylist/easyprivacy.txt
+https://secure.fanboy.co.nz/fanboy-annoyance.txt
+https://raw.githubusercontent.com/LanikSJ/webannoyances/refs/heads/master/filters/ad_placeholders.txt
+https://raw.githubusercontent.com/LanikSJ/webannoyances/refs/heads/master/filters/cookie_filters.txt
+https://raw.githubusercontent.com/LanikSJ/webannoyances/refs/heads/master/filters/floating_filters.txt
+https://raw.githubusercontent.com/LanikSJ/webannoyances/refs/heads/master/filters/generic_filters.txt
+https://raw.githubusercontent.com/LanikSJ/webannoyances/refs/heads/master/filters/modal_filters.txt
+https://raw.githubusercontent.com/LanikSJ/webannoyances/refs/heads/master/filters/newsletter_filters.txt
+https://raw.githubusercontent.com/LanikSJ/webannoyances/refs/heads/master/filters/social_filters.txt
+https://raw.githubusercontent.com/LanikSJ/webannoyances/refs/heads/master/filters/web_annoyances.txt
+https://raw.githubusercontent.com/LanikSJ/webannoyances/refs/heads/master/filters/adguard_app_android_exclusion_filters.txt
+https://raw.githubusercontent.com/LanikSJ/webannoyances/refs/heads/master/filters/adguard_app_ios_exclusion_filters.txt
+
+My Filters:
 www.youtube.com##+js(set, yt.config_.EXPERIMENT_FLAGS.service_worker_enabled, false)
 www.youtube.com##+js(nano-stb, resolve(1), *, 0.001)
 www.youtube.com##+js(set, yt.config_.EXPERIMENT_FLAGS.web_enable_ab_rsp_cl, false)
